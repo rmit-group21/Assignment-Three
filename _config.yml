@@ -20,7 +20,11 @@
 
 title: Project X
 email: rmit.projectx@gmail.com
-#baseurl: "Assignment-Three" # the subpath of your site, e.g. /blog
+<<<<<<< HEAD
+baseurl: "Assignment-Three" # the subpath of your site, e.g. /blog
+=======
+baseurl: "Assignment-Three" # the subpath of your site, e.g. /blog
+>>>>>>> 5add92f9abf4c3b502110709bd279389e6e3952d
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
