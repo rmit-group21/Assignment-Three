@@ -25,3 +25,8 @@ layout: default
 
 <p>Not all group members (or any) need to appear in the video. The method of recording is left up to your group – you are expected to research and find a solution.</p>
 
+<h3 class="font-weight-bold pb-2 mb-4">Submission</h3>
+	
+<video class="video-fluid z-depth-1 assignment5-video" autoplay loop controls muted>
+  <source src="assets/Project2._x264.mp4" type="video/mp4" />
+</video>
