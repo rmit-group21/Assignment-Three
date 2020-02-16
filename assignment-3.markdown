@@ -14,35 +14,9 @@ layout: default
 
 The following items were produced to support our submission
 
-<p><img src="assets/icon-pdf.png" class="a3-icon"> Report File</p>
-<p><img src="assets/icon-bbdoc.png" class="a3-icon"> BuildBox doc file</p>
-<p><img src="assets/icon-zombie.png" class="a3-icon"> Artwork</p>
+<p><a href="Assignment_3.pdf" target="_blank"><img src="assets/icon-pdf.png" class="a3-icon"></a> Report File</p>
+<p><a href="Miss_Zombie.bbdoc"><img src="assets/icon-bbdoc.png" class="a3-icon"></a> BuildBox doc file</p>
+<p><a href="assets/icon-zombie.png" target="_blank"><img src="assets/icon-zombie.png" class="a3-icon"></a> Artwork</p>
 
-<div><a href="a3-team.html">Project Team</a></div>
 
-<div><a href="a3-group-processes.html">Group Processes</a></div>
-
-<div><a href="a3-project-description.html">Project Description</a></div>
-
-<div><a href="a3-plans-progress.html">Plans &amp; Progress</a></div>
-
-<div><a href="a3-roles.html">Roles</a></div>
-
-<div><a href="a3-scope-limits.html">Scope &amp; Limits</a></div>
-
-<div><a href="a3-tools.html">Tools &amp; Technologgies</a></div>
-
-<div><a href="a3-testing.html">Testing</a></div>
-
-<div><a href="a3-timeframes.html">Timeframes</a></div>
-
-<div><a href="a3-risks.html">Risks</a></div>
-
-<div><a href="a3-group-communications.html">Group Processes &amp; Communications</a></div>
-
-<div><a href="a3-skills-jobs.html">Skills &amp; Jobs</a></div>
-
-<div><a href="a3-feedback.html">Feedback</a></div>
-
-<div><a href="a3-group-relection.html">Group Reflection</a></div>
 
