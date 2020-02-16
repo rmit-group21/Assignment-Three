@@ -20,7 +20,7 @@ The following items were produced to support our submission
 
 <p><a href="assets/Miss-Zombie.bbdoc"><img src="assets/icon-bbdoc.png" class="a3-icon"></a> BuildBox doc file</p>
 
-<p><a href="assets/MissZombieAndroid.apk"><img src="assets/icon-apk.png" class="a3-icon"></a> Android .apk file</p>
+<p><a href="assets/MissZombieAndroid.apk"><img src="assets/icon-apk.png" class="a3-icon"></a> Android apk file</p>
 
 <p><a href="assets/icon-zombie.png" target="_blank"><img src="assets/icon-zombie.png" class="a3-icon"></a> Artwork</p>
 
