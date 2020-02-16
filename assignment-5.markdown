@@ -28,5 +28,5 @@ layout: default
 <h3 class="font-weight-bold pb-2 mb-4">Submission</h3>
 	
 <video class="video-fluid z-depth-1 assignment5-video" autoplay loop controls muted>
-  <source src="assets/Project2._x264.mp4" type="video/mp4" />
+  <source src="assets/Assignment-5.mp4" type="video/mp4" />
 </video>
