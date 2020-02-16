@@ -4,10 +4,6 @@ layout: default
 
 <h3 class="font-weight-bold pb-2 mb-4">Assignment 5</h3>
 
-<p>This group assignment is in the form of a video presentation.</p>
-
-<h3 class="font-weight-bold pb-2 mb-4">Assignment Description</h3>
-
 <p>Students will produce up to a 5-minute video presentation on the key elements of their project idea from Assignment 3.</p>
 
 <p>They will also be required to upload a draft highlighting script and storyboard.</p>

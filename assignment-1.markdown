@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h3 class="font-weight-bold pb-2 mb-4">Assignment 1 Description</h3>
+<h3 class="font-weight-bold pb-2 mb-4">Assignment 1</h3>
 <p>In this assignment you will develop your IT profile, which will be used as an input to further assignments. This is an individual assignment, and you will present your assignment by setting up a website which will contain the information about you.</p>
 
 <h3 class="font-weight-bold pb-2 mb-4">Submission</h3>

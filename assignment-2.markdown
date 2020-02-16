@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h3 class="font-weight-bold pb-2 mb-4">Assignment 2 Description</h3>
+<h3 class="font-weight-bold pb-2 mb-4">Assignment 2</h3>
 <p>In this assignment you will work in a group of 4 to 6 to produce a report on various aspects of the IT industry as well as a plan for an IT project.</p>
 
 <p>Groups are self-organised in Canvas, under the People section.</p>
