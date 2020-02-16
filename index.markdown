@@ -1,28 +1,41 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/overriding-theme-defaults
-list_title: Team Members
-layout: home
+layout: default-large
 ---
 
-<h1>Welcome to Project X</h1>
+<div class="home-hero">
+  <img src="assets/logo_text_on_transparent.png" width="60%" alt="Project X">
+</div>
 
-We are currently at the stage of submitting Assignment 2.  The only content here at this stage is the team profile.
+<div class="home-flex-container">
+  <div><a href="assignment-1.html">
+    <div class="section-icon"><img src="assets/profile-female.svg" height="80px"></div>
+    <div class="section-title">Assignment 1</div>
+    <div class="section-descr">My Profile</div>
+  </a></div>
+  
+  <div><a href="assignment-2.html">
+    <div class="section-icon"><img src="assets/chat.svg" height="80px"></div>
+    <div class="section-title">Assignment 2</div>
+    <div class="section-descr">Team Project</div>
+  </a></div>
+  
+  <div><a href="assignment-3.html">
+    <div class="section-icon"><img src="assets/phone.svg" height="80px"></div>
+    <div class="section-title">Assignment 3</div>
+    <div class="section-descr">Our IT Project</div>
+  </a></div>
+  
+  <div><a href="assignment-4.html">
+    <div class="section-icon"><img src="assets/genius.svg" height="80px"></div>
+    <div class="section-title">Assignment 4</div>
+    <div class="section-descr">Course Participation</div>
+  </a></div>
+  
+  <div><a href="assignment-5.html">
+    <div class="section-icon"><img src="assets/presentation.svg" height="80px"></div>
+    <div class="section-title">Assignment 5</div>
+    <div class="section-descr">Presentation</div>
+  </a></div>
+</div>
 
-<h2>Assignment Progress</h2>
-<img src="/assets/progress.svg" style="width:100%;">
-
-When assignments 3, 4 and 5 are completed this site will be updated and styled to match the final product design of our project.
-
-
-<h2>Team Members</h2>
-
-Feel free to read a little about each of us.
-
-<ul>
-  {%- for post in site.posts -%}
-  <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-  {%- endfor -%}
-</ul>
-
-
+  

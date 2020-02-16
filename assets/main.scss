@@ -3,3 +3,387 @@
 ---
 
 @import "minima";
+
+.site-header {
+  min-height: 50px;
+  border-bottom: 0px;
+}
+
+.page-content {
+  xmargin-top: 100px;
+
+}
+.large-background {
+  background-image: url("md-slash-blend-header.png"), url("md-slash-blend.png");
+  background-color: #ffffff;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto 251px, 100% 150px;
+  background-position: 0px 0px, 0px 250px;
+  margin-bottom:250px;
+}
+
+.mini-background {
+  background-image: url("md-slash-blend-header.png"), url("md-slash-blend.png");
+  background-color: #ffffff;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto 41px, 100% 150px;
+  background-position: 0px 0px, 0px 40px;
+  margin-bottom:100px;
+}
+.mini-background header {
+  margin-bottom:50px;
+}
+
+
+.home-hero {
+  color: #ffffff;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 180px;
+}
+
+.home-flex-container {
+  display: flex;
+  //background-color: DodgerBlue;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.home-flex-container > div {
+  //background-color: #f1f1f1;
+  //margin: 10px;
+  //padding: 20px;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  text-align: center;
+  width: 220px;
+
+}
+
+h3 {
+  margin-top: 2rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.section-icon {
+  color: black;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+
+.section-title {
+  color: black;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.section-descr {
+  color: black;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.card-img-100 {
+  max-width: 160px;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  background: #fff;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+small {
+  font-size: .66666667em;
+}
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  box-shadow: 0 1px #e74c3c;
+}
+.bshadow0, input {
+  box-shadow: inset 0 -2px #e7e7e7;
+}
+input:hover {
+  box-shadow: inset 0 -2px #ccc;
+}
+input, fieldset {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+input {
+  color: inherit;
+  line-height: 1.5;
+  height: 1.5em;
+  padding: .25em 0;
+}
+input:focus {
+  outline: none;
+  box-shadow: inset 0 -2px #449fdb;
+}
+.glyph {
+  font-size: 16px;
+  width: 15em;
+  padding-bottom: 1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  float: left;
+  overflow: hidden;
+}
+.liga {
+  width: 80%;
+  width: calc(100% - 2.5em);
+}
+.talign-right {
+  text-align: right;
+}
+.talign-center {
+  text-align: center;
+}
+.bgc1 {
+  background: #f1f1f1;
+}
+.fgc1 {
+  color: #999;
+}
+.fgc0 {
+  color: #000;
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.mvm {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+.mtn {
+  margin-top: 0;
+}
+.mtl, .mal {
+  margin-top: 1.5em;
+}
+.mbl, .mal {
+  margin-bottom: 1.5em;
+}
+.mal, .mhl {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.mhmm {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.mls {
+  margin-left: .25em;
+}
+.ptl {
+  padding-top: 1.5em;
+}
+.pbs, .pvs {
+  padding-bottom: .25em;
+}
+.pvs, .pts {
+  padding-top: .25em;
+}
+.unit {
+  float: left;
+}
+.unitRight {
+  float: right;
+}
+.size1of2 {
+  width: 50%;
+}
+.size1of1 {
+  width: 100%;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.hidden-true {
+  display: none;
+}
+.textbox0 {
+  width: 3em;
+  background: #f1f1f1;
+  padding: .25em .5em;
+  line-height: 1.5;
+  height: 1.5em;
+}
+#testDrive {
+  display: block;
+  padding-top: 24px;
+  line-height: 1.5;
+}
+.fs0 {
+  font-size: 16px;
+}
+.fs1 {
+  font-size: 32px;
+}
+
+      .timeline {
+        position: relative;
+        list-style: none;
+        padding: 1rem 0;
+        margin: 0;
+      }
+
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        margin-left: -1px;
+        background-color: #50a1ff;
+      }
+
+      .timeline-element {
+        position: relative;
+        width: 50%;
+        padding: 1rem 0;
+        padding-right: 2.5rem;
+        text-align: right;
+      }
+
+      .timeline-element::before {
+        content: '';
+        position: absolute;
+        right: -8px;
+        top: 1.35rem;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #50a1ff;
+        background-color: #fff;
+      }
+
+      .timeline-element:nth-child(even)::before {
+        right: auto;
+        left: -8px;
+      }
+
+      .timeline-element:nth-child(even) {
+        margin-left: 50%;
+        padding-left: 2.5rem;
+        padding-right: 0;
+        text-align: left;
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline::before {
+          left: 8px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element {
+          width: 100%;
+          text-align: left;
+          padding-left: 2.5rem;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element::before {
+          top: 1.25rem;
+          left: 1px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element:nth-child(even) {
+          margin-left: 0rem;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element {
+          width: 100%;
+          text-align: left;
+          padding-left: 2.5rem;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element:nth-child(even)::before {
+          left: 1px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .timeline-element::before {
+          top: 1.25rem;
+        }
+      }
+
+.navbar {
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+
+.navbar .nav-item .nav-link .fab {
+  color: white;
+}
+
+.blue.accent-4 {
+    background-color: transparent!important
+}
+
+.blankcard {
+  box-shadow: unset!important;
+  x-webkit-box-shadow: unset;
+}
+
+.a3-icon {
+  max-width: 64px;
+}
+.assignment5-video {
+  max-width: 500px!important;
+}
+.site-footer {
+  width: 100%;
+  max-height: 30px;
+  border-bottom: 0px;
+  background-image: url("slash-blend-footer.png");
+  background-color: #2979FF;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto 60px, 100% 60px;
+  xbackground-position: 0px 0px, 0px 60px;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.site-footer a {
+  color: white;
+}
+
